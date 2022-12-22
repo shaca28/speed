@@ -1,0 +1,39 @@
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.form_pergunta {
+    font-size: 30px;
+    margin: 0 0 10px;
+    display: block;
+    padding: 10px;
+}
+
+.form_resposta {
+    margin: 0 0 20px;
+    padding: 10px 20px;
+    font-size: 20px;
+    width: 50%;
+}
+
+.botao_cadastrar{
+    width: 40%;
+    padding: 20px 0;
+    background: #004c91;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    opacity: 0.8;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.botao_cadastrar:hover {
+    opacity: 2;
+    transform: scale(1.1);
+}
